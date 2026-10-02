@@ -1,0 +1,36 @@
+{
+  "results": {
+    "Linear Regression": {
+      "MAE": 113702.13,
+      "RMSE": 180129.11,
+      "R2": 0.7358,
+      "train_time_s": 0.05,
+      "model_size_mb": 0.0
+    },
+    "Random Forest": {
+      "MAE": 67862.46,
+      "RMSE": 125265.14,
+      "R2": 0.8722,
+      "train_time_s": 29.61,
+      "best_params": {
+        "model__max_depth": 15,
+        "model__min_samples_leaf": 2,
+        "model__n_estimators": 150
+      },
+      "model_size_mb": 65.64
+    },
+    "XGBoost": {
+      "MAE": 72148.47,
+      "RMSE": 125365.77,
+      "R2": 0.872,
+      "train_time_s": 4.02,
+      "best_params": {
+        "model__learning_rate": 0.05,
+        "model__max_depth": 6,
+        "model__n_estimators": 350
+      },
+      "model_size_mb": 1.47
+    }
+  },
+  "best_model": "XGBoost"
+}
