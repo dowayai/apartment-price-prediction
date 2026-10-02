@@ -69,6 +69,6 @@ wdrożenia modelu. Pełne wyniki i dobrane hiperparametry: `models/metrics.json`
 ## Wdrożenie (deployment)
 
 Aplikację można bezpłatnie opublikować w internecie za pomocą
-[Streamlit Community Cloud](https://streamlit.io/cloud), łącząc się
+[Streamlit Community Cloud]([https://streamlit.io/cloud](https://apartment-price-prediction.streamlit.app/)), łącząc się
 bezpośrednio z tym repozytorium GitHub — patrz instrukcja krok po kroku
 przekazana osobno.
